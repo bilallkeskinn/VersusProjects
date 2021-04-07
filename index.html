@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="css/dist/style.css">
+    <!-- SWİPER SLİDER-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.3/photoswipe.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.3/default-skin/default-skin.min.css" />
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/dist/main.css">
+    <link rel="stylesheet" href="css/dist/search.css">
+    <!-- SWİPER SLİDER -->
+    <!-- RESPONSİVE MENU -->
+    <link rel="stylesheet" href="css/dist/responsive.css">
+    <!-- RESPONSİVE MENU -->
+    <link rel="stylesheet" href="css/dist/navmenu.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,800;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <title>Versus Home SECTİON</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- HEADER-NAV START-->
+        <div class="container-fluid nav-menu ">
+            <div class="container mobile">
+                <nav>
+                    <div id="nav-toggle" onclick="toggle()"></div>
+                    <div class="openBtn">
+                        <span style="font-size:30px;cursor:pointer" onclick="openNav()"><i
+                                class="fas fa-bars"></i></span>
+                    </div>
+                    <ul id="nav-ul " class="nav-ul">
+                        <div class="col-md-5 logo">
+                            <a href="#">
+                                <h6>MODUS<span>versus</span></h6>
+                            </a>
+                        </div>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">SERVICES</a></li>
+                        <!-- #sub menu -->
+                        <li class="dropdown">
+                            <div class="row drop">
+                                <div class="col-md-3 fa-down">
+
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="col-md-6 fa-down port">
+                                    <a href="#">PORTFOLIO</a>
+                                </div>
+                            </div>
+                            <ul class="blog">
+                                <li><a href="#"><i class="fas fa-chevron-right"></i> Portfolio 2 column page</a></li>
+                                <li><a href="#"><i class="fas fa-chevron-right"></i> Portfolio 2 column page</a></li>
+                                <li><a href="#"><i class="fas fa-chevron-right"></i> Portfolio 2 column page</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">FEATURES</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                        <div id="searchBox" class="search-container none">
+                            <div class="search"></div>
+                            <div class="input-box">
+                                <input type="text" id="myInput" placeholder="Search...">
+                            </div>
+                        </div>
+                    </ul>
+                    <div id="nav-toggle-alt" onclick="toggle()">X</div>
+                </nav>
+            </div>
+            <div id="YanMenu" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                    &times;</a>
+                <a href="#">HOME</a>
+                <a href="#">ABOUT</a>
+                <a href="#">SERVİCES</a>
+                <a href="#">PORTFOLIO</a>
+                <a href="#">BLOG</a>
+                <a href="#">FEATURES</a>
+                <a href="#">CONTACT</a>
+            </div>
+        </div>
+
+        <!-- HEADER NAV END-->
+        <!-- SLİDER HEADER START-->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide1">
+                    <img src="images/slider.png" alt="">
+                    <div class="text">
+                        <h1>VESTIBULUM</h1>
+                        <p>Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide slide2">
+                    <img src="images/header-img.png" alt="">
+                    <div class="text">
+                        <h1>VESTIBULUM</h1>
+                        <p>Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide slide3">
+                    <img src="images/slider3.png" alt="">
+                    <div class="text">
+                        <h1>VESTIBULUM</h1>
+                        <p>Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide slide3">
+                    <img src="images/adai.png" alt="">
+                    <div class="text">
+                        <h1>VESTIBULUM</h1>
+                        <p>Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide slide3">
+                    <img src="images/hood.png" alt="">
+                    <div class="text">
+                        <h1>VESTIBULUM</h1>
+                        <p>Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide slide3">
+                    <img src="images/slider3.jpg" alt="">
+                    <div class="text">
+                        <h1>VESTIBULUM</h1>
+                        <p>Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="button prev">
+                <button class="next-btn"><i class="fas fa-angle-double-right"></i></button>
+            </div>
+            <div class="button">
+                <button class="prev-btn"><i class="fas fa-angle-double-left"></i></button>
+            </div>
+        </div>
+        <!-- SLİDER HEADER END-->
+        <!-- SOME-SERVİCES SETİON-->
+        <div class="services-container container">
+            <div class="row">
+                <div class="col-md-8 services-text">
+                    <h6>Some of our top services</h6>
+                    <p>Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum,
+                        libero
+                        lectus mattis orci, ut commodo. </p>
+                </div>
+                <div class="col-md-4 more">
+                    <a href="#"><button>VIEW MORE</button></a>
+                </div>
+            </div>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide col-md-1">
+                        <div class="services">
+                            <i class="fas fa-thumbs-up"></i>
+                            <h6>SUSPENDISSE</h6>
+                            <p>Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat vitae
+                                at,
+                                vehicula ut
+                                nunc. </p>
+                            <a href="#"><button>read more</button></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide col-md-1">
+                        <div class="services">
+                            <i class="fas fa-lock"></i>
+                            <h6>MAECENAS</h6>
+                            <p>Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat vitae
+                                at,
+                                vehicula ut
+                                nunc. </p>
+                            <a href="#"><button>read more</button></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide col-md-1">
+                        <div class="services">
+                            <i class="fas fa-flag"></i>
+                            <h6>ALIQUAM</h6>
+                            <p>Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat vitae
+                                at,
+                                vehicula ut
+                                nunc. </p>
+                            <a href="#"><button>read more</button></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide col-md-1">
+                        <div class="services">
+                            <i class="fas fa-flask"></i>
+                            <h6>HABITASSE</h6>
+                            <p>Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat vitae
+                                at,
+                                vehicula ut
+                                nunc. </p>
+                            <a href="#"><button>read more</button></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide col-md-1">
+                        <div class="services">
+                            <i class="fas fa-clock"></i>
+                            <h6>LOREM</h6>
+                            <p>Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat vitae
+                                at,
+                                vehicula ut
+                                nunc. </p>
+                            <a href="#"><button>read more</button></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide col-md-1">
+                        <div class="services">
+                            <i class="fas fa-door-closed"></i>
+                            <h6>CLOSED</h6>
+                            <p>Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat vitae
+                                at,
+                                vehicula ut
+                                nunc. </p>
+                            <a href="#"><button>read more</button></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide col-md-1">
+                        <div class="services">
+                            <i class="fas fa-thumbtack"></i>
+                            <h6>THUMBTACK</h6>
+                            <p>Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat vitae
+                                at,
+                                vehicula ut
+                                nunc. </p>
+                            <a href="#"><button>read more</button></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide col-md-1">
+                        <div class="services">
+                            <i class="fas fa-map-pin"></i>
+                            <h6>MAPPİN</h6>
+                            <p>Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat vitae
+                                at,
+                                vehicula ut
+                                nunc. </p>
+                            <a href="#"><button>read more</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modus-versus container">
+            <div class="versus-text">
+                <h1>WHY MODUS VERSUS?</h1>
+                <p>Capacitance cascading integer reflective interface data development high bus cache dithering
+                    transponder.
+                </p>
+            </div>
+            <!-- #region -->
+            <div class="slide-container">
+                <ul class="container swiper-wrapper my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                    <li id="1" class="swiper-slide" itemprop="associatedMedia" itemscope
+                        itemtype="http://schema.org/ImageObject">
+                        <a id="first" title="click to zoom-in" href="images/pexel1.png" itemprop="contentUrl"
+                            data-size="1200x600">
+                            <img src="images/pexel1.png" itemprop="thumbnail" alt="Image description" />
+                        </a>
+                    </li>
+                    <li id="2" class="swiper-slide" itemprop="associatedMedia" itemscope
+                        itemtype="http://schema.org/ImageObject">
+                        <a title="click to zoom-in" href="images/pexel2.png" itemprop="contentUrl" data-size="1200x601">
+                            <img src="images/pexel2.png" itemprop="thumbnail" alt="Image description" />
+                        </a>
+                    </li>
+                    <li id="3" class="swiper-slide" itemprop="associatedMedia" itemscope
+                        itemtype="http://schema.org/ImageObject">
+                        <a title="click to zoom-in" href="images/pexel3.png" itemprop="contentUrl" data-size="1200x600">
+                            <img src="images/pexel3.png" itemprop="thumbnail" alt="Image description" />
+                        </a>
+                    </li>
+                    <li id="4" class="swiper-slide" itemprop="associatedMedia" itemscope
+                        itemtype="http://schema.org/ImageObject">
+                        <a title="click to zoom-in" href="images/pexel4.png" itemprop="contentUrl" data-size="1200x600">
+                            <img src="images/pexel4.png" itemprop="thumbnail" alt="Image description" />
+                        </a>
+                    </li>
+                    <li id="5" class="swiper-slide" itemprop="associatedMedia" itemscope
+                        itemtype="http://schema.org/ImageObject">
+                        <a title="click to zoom-in" href="images/pexel5.png" itemprop="contentUrl" data-size="1200x600">
+                            <img src="images/pexel5.png" itemprop="thumbnail" alt="Image description" />
+                        </a>
+                    </li>
+                </ul>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="pswp__bg"></div>
+                <div class="pswp__scroll-wrap">
+                    <div class="pswp__container">
+                        <div class="pswp__item"></div>
+                        <div class="pswp__item"></div>
+                        <div class="pswp__item"></div>
+                    </div>
+                    <div class="pswp__ui pswp__ui--hidden">
+                        <div class="pswp__top-bar">
+                            <div class="pswp__counter"></div>
+                            <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                            <button class="pswp__button pswp__button--share" title="Share"></button>
+                            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                            <button class="pswp__button pswp__button--zoom" title="Zoom"></button>
+                            <div class="pswp__preloader">
+                                <div class="pswp__preloader__icn">
+                                    <div class="pswp__preloader__cut">
+                                        <div class="pswp__preloader__donut"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                        </button>
+                        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                        </button>
+                        <div class="pswp__caption">
+                            <div class="pswp__caption__center"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--WHY-MODUS SECTİON-->
+        <div class="choose-us container">
+            <div class="row lol">
+                <div class="col-md-3 choose-text">
+                    <button type="button" id="button">Click the button to see the options!
+                        <i class="fas fa-arrow-down"></i>
+                    </button>
+                    <div class="row us" style="display: none;">
+                        <h1>Why Choose Us ?</h1>
+                        <div class="col-md-1 padding-us">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                        <div class="col-md-11 padding">
+                            <a href="#">
+                                <h6>Quisque at massa ipsum</h6>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row us" style="display: none;">
+                        <div class="col-md-1 padding-us">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                        <div class="col-md-11 padding">
+                            <a href="#">
+                                <h6>Maecenas a lorem augue, egestas</h6>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row us" style="display: none;">
+                        <div class="col-md-1 padding-us">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                        <div class="col-md-11 padding">
+                            <a href="#">
+                                <h6>Cras vitae felis at lacus eleifend</h6>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row us" style="display: none;">
+                        <div class="col-md-1 padding-us">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                        <div class="col-md-11 padding">
+                            <a href="#">
+                                <h6>Etiam auctor diam pellentesque </h6>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row us" style="display: none;">
+                        <div class="col-md-1 padding-us">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                        <div class="col-md-11 padding">
+                            <a href="#">
+                                <h6>Nulla ac massa at dolor</h6>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row us" style="display: none;">
+                        <div class="col-md-1 padding-us">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                        <div class="col-md-11 padding">
+                            <a href="#">
+                                <h6>Condimentum eleifend vitae vitae</h6>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 choose-text choose">
+                    <h5>Curabitur quis nisl in leo euismod venenatis eu in diam. Etiam auctor diam pellentesque lectus
+                        <a href="#">vehicula mattis.</a> Nulla ac massa at dolor condimentum eleifend vitae vitae urna.
+                    </h5>
+                    <div class="row">
+                        <div class="col-md-3 counter-image">
+                            <img src="images/counter.png" alt="">
+                            <div class="number" style="--from: 0; --to: 150; --duration: 15s;"></div>
+                            <h6>SUSPENDISSE</h6>
+                        </div>
+                        <div class="col-md-3 counter-image">
+                            <img src="images/counter1.png" alt="">
+                            <div class="number" style="--from: 0; --to: 175; --duration: 16s; --timing: ease-in-out">
+                            </div>
+                            <h6>MAECENAS</h6>
+                        </div>
+                        <div class="col-md-3 counter-image">
+                            <img src="images/counter2.png" alt="">
+                            <div class="number" style="--from: 0; --to: 190; --duration: 17s; --timing: ease"></div>
+                            <h6>ALIQUAM</h6>
+                        </div>
+                        <div class="col-md-3 counter-image">
+                            <img src="images/counter3.png" alt="">
+                            <div class="number" style="--from: 0; --to: 200; --duration: 18s; --timing: ease"></div>
+                            <h6>HABITASSE</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 choose-text say">
+                    <h2>What Client's Say ?</h2>
+                    <div class="triangle">
+                        <p>Curabitur quis nisl in leo euismod venenatis eu in diam. Etiam auctor diam pellentesque
+                            lectus
+                            vehicula mattis. Nulla ac massa at dolor condimentum</p>
+                        <div class="triangle-down"></div>
+                    </div>
+                    <h4>Jhon Doe</h4>
+                </div>
+            </div>
+        </div>
+        <!--WHY-MODUS SECTİON-->
+        <!-- SLİDER-->
+        <div class="jquery-slider container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/jquery.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/jquery.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/jquery.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/jquery.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/jquery.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/jquery.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/jquery.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/jquery.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/jquery.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/jquery.png" alt="">
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination .pagination"></div>
+        </div>
+
+        <!-- SLİDER-->
+        <!-- FOOTER-->
+        <div class="footer container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 footer-text">
+                        <h1>MODUS<span>versus</span></h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida
+                            pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec .
+                        </p>
+                        <div class="row">
+                            <div class="col-md-2 span">
+                                <span>Phone:</span>
+                            </div>
+                            <div class="col-md-10">
+                                <a href="#">
+                                    <h6>182 2569 5896</h6>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2 span">
+                                <span>e-mail:</span>
+                            </div>
+                            <div class="col-md-10">
+                                <a href="#">
+                                    <h6>info@modu.versus</h6>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 footer-text">
+                        <div class="row">
+                            <div class="col-md-6 footer-links">
+                                <h2>Company</h2>
+                                <ul>
+                                    <div class="row align">
+                                        <div class="col-md-2 right">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </div>
+                                        <div class="col-md-10 padding">
+                                            <a href="#">
+                                                <li>About</li>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="row align">
+                                        <div class="col-md-2 right">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </div>
+                                        <div class="col-md-10 padding">
+                                            <a href="#">
+                                                <li>FAQ</li>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="row align">
+                                        <div class="col-md-2 right">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </div>
+                                        <div class="col-md-10 padding">
+                                            <a href="#">
+                                                <li>Contact</li>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="row align">
+                                        <div class="col-md-2 right">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </div>
+                                        <div class="col-md-10 padding">
+                                            <a href="#">
+                                                <li>Terms</li>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="row align">
+                                        <div class="col-md-2 right">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </div>
+                                        <div class="col-md-10 padding">
+                                            <a href="#">
+                                                <li>Privacy</li>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="row align">
+                                        <div class="col-md-2 right">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </div>
+                                        <div class="col-md-10 padding">
+                                            <a href="#">
+                                                <li>Testimonials</li>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 footer-links">
+                                <h2>Community</h2>
+                                <ul>
+                                    <div class="row align">
+                                        <div class="col-md-2 right">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </div>
+                                        <div class="col-md-10 padding">
+                                            <a href="#">
+                                                <li>Blog</li>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="row align">
+                                        <div class="col-md-2 right">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </div>
+                                        <div class="col-md-10 padding">
+                                            <a href="#">
+                                                <li>Forum</li>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="row align">
+                                        <div class="col-md-2 right">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </div>
+                                        <div class="col-md-10 padding">
+                                            <a href="#">
+                                                <li>Support</li>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="row align">
+                                        <div class="col-md-2 right">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </div>
+                                        <div class="col-md-10 padding">
+                                            <a href="#">
+                                                <li>Newsletter</li>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 footer-text span">
+                        <h5>from the <span>BLOG</span></h5>
+                        <div class="row footer-img">
+                            <div class="col-md-3">
+                                <img src="images/footer-img.png" alt="">
+                            </div>
+                            <div class="col-md-9 text">
+                                <a href="#">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                </a>
+                                <h6>26 May. 2013</h6>
+                            </div>
+                        </div>
+                        <div class="row footer-img">
+                            <div class="col-md-3">
+                                <img src="images/footer-imgg.png" alt="">
+                            </div>
+                            <div class="col-md-9 text">
+                                <a href="#">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                </a>
+                                <h6>26 May. 2013</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER-->
+        <!-- FOOTER-NAV-->
+        <div class="footer-nav container-fluid">
+            <div class="container">
+                <div class="versus">
+                    <h6>2013 ModusVersus</h6>
+                </div>
+                <div class="media">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#"><i class="fab fa-tumblr"></i></a>
+                    <a href="#"><i class="fas fa-rss"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER-NAV-->
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.3/photoswipe.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.3/photoswipe-ui-default.min.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="https://unpkg.com/tippy.js@3/dist/tippy.all.min.js"></script>
+        <script src="js/main.js"></script>
+        <script>
+            tippy('.swiper-button-prev', {
+                content: "Prev",
+                theme: "light",
+                arrow: true,
+            })
+
+            tippy('.swiper-button-next', {
+                content: "Next",
+                theme: "light",
+                arrow: true,
+            })
+
+
+        </script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="js/slider.js"></script>
+        <script src="js/search.js"></script>
+        <script src="js/responsive.js"></script>
+        <script src="js/down.js"></script>
+
+</body>
+
+</html>

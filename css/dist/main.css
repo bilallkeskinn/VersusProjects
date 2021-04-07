@@ -1,0 +1,134 @@
+/* zero custom styles for photoswipe */
+
+/*==================================
+SWIPER - minimal styling
+===================================*/
+/* semantic HTML - remove bullet and space from the list */
+ul.slide-container {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.slide-container ul li {
+  list-style: none;
+}
+
+/* Swiper container */
+.slide-container {
+  max-width: 100%;
+}
+
+/* swiper responive image */
+.slide-container img {
+  width: 100%;
+  height: auto;
+}
+
+.swiper-slide {
+  /* Remove this if you want 1 slide perview - than change slidesPerView js-option to 1 -or- 2+ instead of 'auto' */
+  width: 80%;
+}
+
+/* Swiper custom pagination */
+.swiper-pagination-bullet {
+  width: 34px;
+  height: 34px;
+  text-align: center;
+  line-height: 34px;
+  font-size: 14px;
+  color: #000;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.3);
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+/* Swiper custom pagination */
+.swiper-pagination-bullet:hover {
+  transition: background-color 0.5s ease;
+  background: rgba(0, 0, 0, 1);
+  color: white;
+}
+
+/* Swiper custom pagination active state */
+.swiper-pagination-bullet-active {
+  color: #fff;
+  background: black;
+}
+
+
+/*==================================================================
+CODEPEN STYLES -(under codepen gear/setting icon)
+==============================================++++++================*/
+.tippy-tooltip.light-theme {
+  color: #26323d;
+  box-shadow: 0 0 20px 4px rgba(154, 161, 177, 0.15),
+    0 4px 80px -8px rgba(36, 40, 47, 0.25),
+    0 4px 4px -2px rgba(91, 94, 105, 0.15);
+  background-color: white;
+}
+
+.tippy-backdrop {
+  background-color: white;
+}
+
+.tippy-roundarrow {
+  fill: white;
+}
+
+/* Default (sharp) arrow */
+.tippy-popper[x-placement^='top'] .tippy-tooltip.light-theme .tippy-arrow {
+  border-top-color: #fff;
+}
+
+.tippy-popper[x-placement^='bottom'] .tippy-tooltip.light-theme .tippy-arrow {
+  border-bottom-color: #fff;
+}
+
+.tippy-popper[x-placement^='left'] .tippy-tooltip.light-theme .tippy-arrow {
+  border-left-color: #fff;
+}
+
+.tippy-popper[x-placement^='right'] .tippy-tooltip.light-theme .tippy-arrow {
+  border-right-color: #fff;
+}
+
+/* Round arrow */
+.tippy-tooltip.light-theme .tippy-roundarrow {
+  fill: #fff;
+}
+
+.slide-container {
+  width: 1294px;
+  height: 310px;
+  overflow: hidden;
+}
+
+.slide-container .swiper-slide {
+  width: 410px;
+  opacity: .3;
+}
+
+.slide-container img {
+  height: 310px;
+}
+
+.swiper-slide.swiper-slide-active {
+  opacity: 1;
+}
+
+.slide-container .swiper-pagination-progressbar {
+  width: 68% !important;
+  height: 4px !important;
+  left: 16% !important;
+  top: auto !important;
+}
+
+@media (max-width: 760px) {
+  .slide-container .swiper-pagination-progressbar {
+    width: 89.5% !important;
+    height: 4px !important;
+    left: 5% !important;
+    top: auto !important;
+  }
+}
