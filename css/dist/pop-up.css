@@ -1,0 +1,109 @@
+input {
+    width: 46%;
+    margin: 0 10px 20px 0px;
+    height: 30px;
+    border: none;
+    outline: none;
+    text-indent: 10px;
+    font-family: 'Karla', sans-serif;
+}
+
+form {
+    padding-top: 25%;
+}
+
+.modal h1 {
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    color: #E8645A;
+    margin-bottom: 20px;
+}
+
+.modal button {
+    margin-left: 110px;
+    outline: none;
+    border: none;
+    width: 200px;
+    height: 45px;
+    background-color: #E8645A;
+    font-weight: bold;
+    font-family: "Karla", sans-serif;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+.modal button:hover{
+    background-color: #F7941D;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* İçerik / Kutu */
+.modal-content {
+    background-color: #404143;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 500px;
+    height: 65%;
+    margin: 90px auto;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal{
+    z-index: 999;
+}
+button{
+    transition: 250ms all;
+}
+button#myBtn{
+    z-index: 999;
+    position: fixed;
+    background-color: transparent;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    margin: 27% 0;
+}
+button#myBtn h6{
+    width: 98px;
+    font-size: 13px;
+    position: absolute;
+    font-family: 'Karla', sans-serif;
+    color: #E8645A;
+    font-weight: bolder;
+}
+.fa-long-arrow-alt-right{
+    font-weight: 900;
+    width: 64px;
+    font-size: 50px;
+    padding: 5px;
+    color: #E8645A;
+}
+@media (max-width: 980px){
+    .modal-content{
+        height: 49%;
+    }
+}

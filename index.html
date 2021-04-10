@@ -21,6 +21,9 @@
     <!-- RESPONSİVE MENU -->
     <link rel="stylesheet" href="css/dist/responsive.css">
     <!-- RESPONSİVE MENU -->
+    <!-- POP-UP WİNDOW-->
+    <link rel="stylesheet" href="css/dist/pop-up.css">
+    <!-- POP-UP WİNDOW-->
     <link rel="stylesheet" href="css/dist/navmenu.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,800;1,600&display=swap"
@@ -91,6 +94,26 @@
                 <a href="#">BLOG</a>
                 <a href="#">FEATURES</a>
                 <a href="#">CONTACT</a>
+            </div>
+        </div>
+        <button id="myBtn">
+            <h6>CREATE FORM</h6>
+            <i class="fas fa-long-arrow-alt-right">
+            </i>
+        </button>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close" title="Close">&times;</span>
+                <form action>
+                    <h1>Please fill out the form to make an appointment!</h1>
+                    <input type="text" placeholder="Name" required>
+                    <input type="text" placeholder="Surname" required>
+                    <input type="email" placeholder="E-mail" required>
+                    <input type="tel" placeholder="Samp:535 765 6052" required pattern="[0-9]{3} [0-9]{3} [0-9]{4}">
+                    <span class="icon icon-download"></span>
+                    <button type="submit">Send FORM !</button>
+                    <br>
+                </form>
             </div>
         </div>
 
@@ -695,13 +718,13 @@
                 arrow: true,
             })
 
-
         </script>
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
         <script src="js/slider.js"></script>
         <script src="js/search.js"></script>
         <script src="js/responsive.js"></script>
         <script src="js/down.js"></script>
+        <script src="js/pop-up.js"></script>
 
 </body>
 
